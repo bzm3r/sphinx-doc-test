@@ -1,8 +1,12 @@
-# Running the test
+# Understanding `intersphinx` issues
 
-I am using [`rye`](https://rye.astral.sh/) to easily set up the environment for the test, but the `pyproject.toml` should be compatible with other tools too.
+This a repository to understand `intersphinx` issues.
 
-## Installing Rye
+## Environment setup
+
+I am using [`rye`](https://rye.astral.sh/) to easily set up the environment for the test, but the `pyproject.toml` should be compatible with other tools too. If you want to use `rye`, here are some instructions to help out:
+
+### Installing Rye
 
 **Note:** if you are on Windows, make sure to [enable developer mode](https://rye.astral.sh/guide/faq/#windows-developer-mode) before installing `rye`.
 
@@ -18,6 +22,8 @@ I am using [`rye`](https://rye.astral.sh/) to easily set up the environment for 
     - (if on Linux): `source ./.venv/bin/activate`
     - (if on Windows): `./myproject-project/.venv/Scripts/activate`
 
-## Running Sphinx
+## Building the docs
 
-Once the environment is set up, you can run either `makedocs.sh` (bash) or `makedocs.ps1` (Windows, Powershell) as appropriate.
+Once the environment is set up, you can run either `makedocs.sh` (bash) or `makedocs.ps1` (Windows, Powershell) as appropriate. Alternatively, you can run the commands listed in the script files manually.
+
+Once the docs are built, open up `./myproject/docs/_build/html/index.html` using your favourite browser.
