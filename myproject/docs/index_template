@@ -1,0 +1,10 @@
+myproject documentation
+=======================
+
+This is a test to see if intersphinx works as we expect.
+
+.. autosummary::
+  :toctree: _autosummary
+  :recursive:
+
+  myproject
