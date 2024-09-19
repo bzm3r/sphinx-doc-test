@@ -66,12 +66,7 @@ for folder in source_folders:
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
-    "sphinx.ext.coverage",
-    "sphinx.ext.inheritance_diagram",
     "sphinx.ext.intersphinx",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.todo",
-    "sphinx.ext.viewcode",
 ]
 
 templates_path = ["_templates"]

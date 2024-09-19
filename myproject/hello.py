@@ -6,6 +6,7 @@ from typing import Any
 import polars as pl
 
 type Hello = str
+"""This is a type alias."""
 
 
 def make_df(
